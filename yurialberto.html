@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Derby</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <script>
+        function compute(form){
+            if(prompt("A Resposta correta é...",0)==1){
+                alert("Parabéns, resposta correta!");
+                window.location.href="imagens/derbi.jpg";
+            }
+            else{
+                alert("Resposta errada!");
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <center>
+        <table border="1" cellpadding="2" width="400" bordercolor="#ff0000"
+        bordercolorlight="#0000FF" bordercolordark="#ff0000">
+  <tr>  
+        <td><blockquote>
+    <p align="left"> <font face="arial"><strong>
+          <small> Pergunta:</small><br>
+          <small> Qual o maior classico de São Paulo?</small><br><br>
+          <font color="#000080">
+         <small>1- Corinthians x Palmeiras</small> <br>
+         <small>2- Santos x São Paulo</small> <br>
+         <small>3- Palmeiras x São Paulo</small> <br>
+          </font>
+        </strong></font></p>
+    </td></blockquote>
+  </tr>      
+        </table>
+
+    </center>
+      <form>
+     <input type="button" value="Responda aqui" onclick="compute(this.form)">
+
+      </form>
+   
+</body>
+</html>
